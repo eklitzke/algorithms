@@ -1,5 +1,6 @@
 """Implement powerset using the bit-testing technique."""
 
+
 def nth_is_set(num, pos):
     return bool(num & (1 << pos))
 

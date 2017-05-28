@@ -3,6 +3,8 @@
 This uses the "interleaving" technique, which I find the most intuitive. It's
 not the most efficient algorithm.
 """
+
+
 def interleave(x, xs):
     """Interleave x into xs."""
     for pos in range(len(xs) + 1):
